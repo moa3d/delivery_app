@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/DELL/Desktop/maad 2/backendNUMNOW/utils/**)",
+      "Read(//c/Users/DELL/Desktop/maad 2/backendNUMNOW/routes/**)",
+      "PowerShell(flutter analyze lib test)",
+      "PowerShell(flutter test test/controllers/auth_controller_test.dart)"
+    ]
+  }
+}

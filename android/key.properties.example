@@ -1,0 +1,15 @@
+# انسخ هذا الملف إلى android/key.properties واملأ القيم.
+# الملف الحقيقي مستثنى في .gitignore ولا يجوز رفعه أو مشاركته.
+#
+# إنشاء الـkeystore (مرة واحدة فقط، واحتفظ بنسخة احتياطية خارج المشروع):
+#   keytool -genkey -v -keystore upload-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+#
+# ملاحظة: إزالة `-storetype JKS` تُنشئ المفتاح بصيغة PKCS12 الحديثة (مقبولة
+# أيضاً على Google Play) بلا تحذير من keytool.
+#
+# ⚠️ ضياع هذا الملف أو كلمة مروره = استحالة تحديث التطبيق على Google Play.
+
+storeFile=C:/path/to/upload-keystore.jks
+storePassword=
+keyAlias=upload
+keyPassword=
